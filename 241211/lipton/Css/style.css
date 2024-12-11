@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../res/fresh-spring-background.jpg);
+    min-height: 100hv;
+    background-size: cover;
+}
+.contaeiner{
+    margin: auto;
+    width: 70%;
+  
+    
+}
+
+#logo{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#logo img{
+    width: 125px;
+    
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    display: inline-block;
+    padding: 10px 80px;
+    text-decoration: none;/*Alt çizgiyi siler*/
+    color: #EE5A24;/*Yazının rengini değiştirir*/
+    font-weight: bold;/*yazıyı kalınlaştırır*/
+    font-family: sans-serif;/*Yazı tipini düz olarak ayarlar*/
+    transition: 1s;
+
+}
+
+#menu{
+    background-color: white;
+    box-shadow: 0 0 5px #9e9d9d;/*Gölge eklemesi yaptık ve gölgeye renk ekledik*/
+    text-align: center;
+    
+}
+
+#menu a:hover{
+    background-color: #fE5A24;
+    color: aliceblue;
+    transition: 1s;
+
+}
