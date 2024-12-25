@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="kaydet.html" method="post">
+      <fieldset>
+        <legend>Mesaj Gönder</legend>
+
+        <input
+          type="text"
+          name="ad"
+          id="ad"
+          placeholder="Adınızı Giriniz"
+          required
+        />
+        <br /><br />
+
+        <input
+          type="email"
+          name="posta"
+          id="posta"
+          placeholder="E-Posta Adresinizi Giriniz"
+          required
+        />
+        <br /><br />
+
+        <input type="radio" name="cinsiyet" id="kız" value="Makyaj" />
+        <label for="kız">Kız</label>
+        <br />
+
+        <input type="radio" name="cinsiyet" id="erkek" value="Cilt" />
+        <label for="erkek">Erkek</label>
+        <br /><br />
+
+        <select name="istek" id="istek">
+          <option value="Bilgi">Bilgi Almak İstiyorum</option>
+          <option value="Oneri">Öneride Bulunmak İstiyorum</option>
+          <option value="Sikayet">Şikayetimi İletmek İstiyorum</option>
+        </select>
+        <br /><br />
+
+        <textarea name="uyelik" id="uyelik" rows="10" cols="50" disabled>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sint error beatae itaque quam natus soluta quo doloribus, cumque dolorum eveniet, reprehenderit eos mollitia! Est nam tempora eveniet saepe aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet, error eos nemo cupiditate temporibus tenetur, quae et tempora officia totam ad nulla nobis provident libero dignissimos alias aut quam!</textarea
+        >
+        <br />
+      </fieldset>
+      <br />
+      <button type="submit">Gönder</button>
+      <button type="reset">Temizle</button>
+    </form>
+  </body>
+</html>

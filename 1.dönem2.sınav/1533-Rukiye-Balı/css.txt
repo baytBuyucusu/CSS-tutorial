@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #95a5a6;
+    text-align: center;
+    font-size: 125%;
+    font-family: "Playwrite AU VIC Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+ul a{
+
+    text-decoration: none; 
+    color: #ffff;
+    list-style: none;
+    
+}
+footer{
+    margin-top: 20px;
+}
+
+.container{
+    background-color: #222;
+    margin: 60px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+      <header>
+        <h1 id="ad">Rukiye-Balı-1533</h1>
+        <ul>
+          <li><a href="index.html">Ana-Sayfa</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li><a href="https://www.google.com.tr/?hl=tr">Google</a></li>
+        </ul>
+      </header>
+
+      <main style="margin: 20px">
+        <img src="icerik.jpg" alt="resim" />
+      </main>
+
+      <footer>
+        <h2>Tüm Hakları Saklıdır.</h2>
+      </footer>
+    </div>

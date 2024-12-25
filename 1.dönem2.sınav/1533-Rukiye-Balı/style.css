@@ -1,0 +1,51 @@
+* {
+ /* background-color: #7f8c8d; Arka plan rengi */
+
+  font-family: "Playwrite AU VIC Guides", serif; /*yazı tipi*/
+  font-weight: 400;
+  font-style: normal;
+
+  margin: 0px; /*dış boşluk sıfırlama*/
+  padding: 0px; /*iç boşluk sıfır*/
+
+  box-sizing: border-box; /*kutu genişliği*/
+
+  font-size: 125%; /*%125 fontunu ayarlama*/
+
+  text-align: center; /*yazıların sayfanın ortasında olmasını sağlar*/
+
+  color: #fff; /*bütün sayfadakli yazıların rengini değiştirme*/
+}
+
+body{
+    background-color: #7f8c8d;
+}
+
+.container {
+  background-color: #222; /*arka plan rengi*/
+  margin: 60px auto; /*dış boşluk verme*/
+  width: 960px; /*Genişlik verme*/
+}
+
+.baglanti a {
+  color: #fff;
+  font-size: 55%;
+}
+
+.baglanti li {
+  text-decoration: none; /*madde işaretini kaldırma*/
+  display: inline-block; /*liste elemanlarını yan yana getirme*/
+}
+
+main {
+  margin: 20px;
+}
+
+main img {
+  width: 550px;
+  height: 450px;
+}
+
+footer {
+  margin-top: 20px;/*yukardan 20pixels boşluk verdik*/
+}
