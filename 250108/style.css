@@ -1,0 +1,31 @@
+*{
+    margin: 0px;/*dış boşluk 0 lanır */
+    padding: 0px;/*iç boşluğu 0 lar*/
+}
+
+body{
+    background-size: cover;/*resmi ekrana sığdırır*/
+    background-image: url(res/resim.jpg);/*Arka plan resmini ayarlar*/
+}
+
+.container img{
+    display: flex;/*Esneklik verir*/
+    width: 75px;/*Genişlik*/
+    margin-top: 10px;
+}
+
+header{
+    background-color: #aaaaaa8e;/*header in arka planının renk verdim*/
+}
+
+.col-9 a{
+    text-decoration: none; /*Bağlantı nın altındaki çizgiyi kapatır*/
+    color: black;
+    font-size: large;
+}
+
+.col-9 li{
+    margin-top: 10px;/*yukardan 10 pixel boşluk verir*/
+    padding: 5px;/*iç boşluk 5 pixel verdik*/
+    display: inline-block;/*liste elemanlarını yan yana getirir*/
+}
