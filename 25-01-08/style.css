@@ -1,0 +1,19 @@
+body{
+    background-image: url(res/resim.jpg);/*resim ekleme yaptık*/
+    background-size: cover;/*Ekranı tamamen kaplar tekrarı önler*/
+}
+
+header{
+    background-color: #ffffff93;/*header e arka plan verdik*/
+    padding: 20px 0px;
+}
+
+.col-2 img{
+    width: 75px;
+}
+
+.col-10 a{
+    text-decoration: none;
+    color: black;
+}
+
