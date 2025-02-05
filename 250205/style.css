@@ -1,0 +1,104 @@
+header{/**hem header e hemde footer e sitil veriri*/
+    background-color: #333;
+    color: #fff;
+    border-bottom: solid 3PX red;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+}
+
+#ust-menu a,#dil-menu a,#ana-menu a,.satir-2 a{
+    text-decoration: none;/*link lerin altındaki çizgiyi kaldırır.*/
+    color: #ccc;/*renk verdik*/
+    list-style: none;/*nokta işaretlerini kaldırır*/
+    padding: 10px;/*iç boşluk*/
+    display: block;/*alt alta  yazı yı ayarlar.*/
+    transition: 0.5s;
+}
+
+.ayrac {
+    margin: 5px auto;
+    border-bottom: 1px #ccc solid;
+}
+
+#ana-menu a:hover{/*Menü simgesini üstüne gelindiğinde çalışacak kodlar*/
+    background-color: rgb(201, 22, 22);/*üstüne gelindiği zaman arka planı turuncu yap.*/
+    color: rgb(252, 252, 252);/*üstüne gelindiğinde yazı rengini beyaz*/
+    transition: 1s;/*kaç saniyede gerçekleşeceğini belirtir.*/
+}
+
+.card img{
+    width: 100%;
+}
+
+.card{
+    background-color: #252627;
+    padding: 10px;
+    margin: 15px 5px;
+    min-height: 100%;
+    /*object-fit: contain;*//*Bu ne demek?????...*/
+}
+
+h2{
+    padding: 5px 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.detay p{
+    color: #fff;
+}
+
+.tur{
+    background-color: red;
+    padding: 5px;
+    color: #fff;
+}
+
+.yer{
+    color: #fff;
+}
+
+main{
+    color: #ccc;
+    padding-bottom: 20px;
+}
+
+#soz{
+    color: #fff;
+    background-color: red;
+    border: solid 6px #fff;
+    margin: 10px 0; 
+    padding: 20px;   
+    text-align: center;
+}
+
+#soz q{
+    font-size: 1.5em;
+}
+
+#sosyal-medya a{
+    text-decoration: none;/*link lerin altındaki çizgiyi kaldırır.*/
+    color: #fff;/*renk verdik*/
+    list-style: none;/*nokta işaretlerini kaldırır*/
+    padding: 10px;/*iç boşluk*/
+}
+
+.metin2{
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.metin3{
+    margin: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
